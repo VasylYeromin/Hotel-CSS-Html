@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<body xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Hotels.css">
+    <title>Hotels</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img class="Picture-1" src="10ffaadab6bc3c4c1dd4a3e44bf6d5ad.jpg"
+            </div>
+            <nav class="nav">
+                <a class="nav__link-hotel" href="#">FEATURES </a>
+                <a class="nav__link-hotel" href="#">BUY TICKETS </a>
+                <a class="nav__link-hotel" href="#"> OUR VACATION </a>
+                <a class="nav__link-hotel" href="#"> SCHEDULE AIRPLAINS </a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="intro-hotel">
+    <div class="container">
+        <div class="intro__inner"></div>
+        <h5 class="intro__title"></h5>
+        <h2 class="intro__subtitle"></h2>
+        <a class="btn btn--red" href="#"> </a>
+    </div>
+</div>
+</div>
+
+<div class="container">
+    <div class="features">
+        <div class="features__item">
+            <img class="features__icon" src="429337541.jpg" alt="">
+            <h1>
+                <p> Atlantis The Royal is set to join the ranks of the world’s most luxurious hotels in Dubai. </p></h1>
+            <h4 class="features__title"></h4>
+            <div class="features__text">
+
+
+                <div class="container">
+                    <div class="features">
+                        <div class="features__item">
+                            <img class="features__icon" src="d55f0f42-ce87-4a04-bd77-ed30a21ec7e6_rw_1920.png" alt="">
+                            <h1 class="features__title"></h1>
+                            <div class="features__text">
+                                <img src="Без%20названия.jpg">
+                                <h3>
+
+
+                                    <div class="features">
+                                        <div class="features__item">
+                                            <img class="features__icon"
+                                                 src="" alt="">
+                                            <h1 class="features__title"></h1>
+                                            <div class="features__text">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="Hotel">
+                                        <div class="Hotel__item"></div>
+                                        <div class="Hotel__title"> <h1> Hoshinoya </div>
+                                        <div class="hotel__text"> Tokyo</div>
+
+                                        <div class="team">
+                                            <div class="hotel__inner"></div>
+
+                                            <div class="hotel__item"></div>
+                                            <img class="hotel__photo" src="">
+                                            <div class="Hotel__name"></div>
+                                            <div class="Hotel__prof"></div>
+                                            <div class="Hotel__text"></div>
+                                            <p></p>
+
+                                            <div class="social Tokyo">
+                                                <img src="Hoshinoya-Tokyo_2018_HOSHINOYA-Tokyo_Kiku-Guest-Room_PhotoCred-Hoshino-Resorts.webp">
+                                                <img
+                                                        src="145802.png">
+
+
+                                                <div>
+                                                    <div class="team__inner"></div>
+
+                                                    <div class="hotel__item"></div>
+                                                    <img src="287331792.jpg">
+                                                    <img src="">
+
+                                                    <div class="Hotel_name-1"></div>
+                                                    <div class="hotel__inf"> Is in Maldives(South Asia) Soneva, formerly
+                                                        Soneva Resorts and Residences, is a resort chain founded in
+                                                        Maldives in 1995 by Sonu Shivdasani and his wife Eva Malmström
+                                                        Shivdasani. 🡅
+                                                    </div>
+
+
+                                                    <div class="Hotel__item"></div>
+                                                    <img src="">
+
+
+                                                    <div class="Hotel__prof"> <img
+                                                              src="400535324.jpg"> <h1> Is in Moltrasio(Italy)  In the early 1800s, Count Andrea Lucini
+                                                        Passalacqua built a sprawling villa complete designer Giocando Albertolli 🡅 </h1>
+
+                                                    </div>
+
+                                                    <div class="hotel__item"></div>
+                                                    <img class="hotel__photo">
+
+                                                    <div class="reviews reviews__hotel">
+                                                        <div class="container">
+
+                                                            <div class="reviews__item">
+                                                                <div class="reviews__photo"></div>
+                                                                <img class="reviews__img"
+
+                                                                <div class="reviews__content"></div>
+                                                                <div class="reviews__text"> It's all about our hotels and these are the best hotels in the world!
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+</body>
+</html>
