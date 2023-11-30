@@ -66,7 +66,7 @@
 
                                     <div class="Hotel">
                                         <div class="Hotel__item"></div>
-                                        <div class="Hotel__title"> <h1> Hoshinoya </div>
+                                        <div class="Hotel__title"><h1> Hoshinoya</div>
                                         <div class="hotel__text"> Tokyo</div>
 
                                         <div class="team">
@@ -81,8 +81,6 @@
 
                                             <div class="social Tokyo">
                                                 <img src="Hoshinoya-Tokyo_2018_HOSHINOYA-Tokyo_Kiku-Guest-Room_PhotoCred-Hoshino-Resorts.webp">
-                                                <img
-                                                        src="145802.png">
 
 
                                                 <div>
@@ -104,9 +102,12 @@
                                                     <img src="">
 
 
-                                                    <div class="Hotel__prof"> <img
-                                                              src="400535324.jpg"> <h1> Is in Moltrasio(Italy)  In the early 1800s, Count Andrea Lucini
-                                                        Passalacqua built a sprawling villa complete designer Giocando Albertolli 🡅 </h1>
+                                                    <div class="Hotel__prof"><img
+                                                            src="400535324.jpg">
+                                                        <h1> Is in Moltrasio(Italy) In the early 1800s, Count Andrea
+                                                            Lucini
+                                                            Passalacqua built a sprawling villa complete designer
+                                                            Giocando Albertolli 🡅 </h1>
 
                                                     </div>
 
@@ -121,7 +122,8 @@
                                                                 <img class="reviews__img"
 
                                                                 <div class="reviews__content"></div>
-                                                                <div class="reviews__text"> It's all about our hotels and these are the best hotels in the world!
+                                                                <div class="reviews__text"> It's all about our hotels
+                                                                    and these are the best hotels in the world! Where can you relax!
                                                                 </div>
 
                                                             </div>
@@ -132,7 +134,6 @@
 
 </body>
 </html>
-
 
 
 CSS!!!
