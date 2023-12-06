@@ -104,10 +104,10 @@
 
                                                     <div class="Hotel__prof"><img
                                                             src="400535324.jpg">
-                                                        <h1> Is in Moltrasio(Italy) In the early 1800s, Count Andrea
+                                                        <h1>  <div class="Moltrasio">   Is in Moltrasio(Italy) In the early 1800s, Count Andrea
                                                             Lucini
                                                             Passalacqua built a sprawling villa complete designer
-                                                            Giocando Albertolli 🡅 </h1>
+                                                            Giocando Albertolli 🡅 </h1> </div>
 
                                                     </div>
 
@@ -403,4 +403,8 @@ h1, h2, h3, h4, h5 {
 .hotel__inf {
     color: aqua;
     padding: 50px;
+}
+
+.Moltrasio{
+    padding: 100px;
 }
