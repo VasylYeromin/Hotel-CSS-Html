@@ -385,6 +385,7 @@ h1, h2, h3, h4, h5 {
 .reviews__text {
     font-size: 36px;
     line-height: 1.2;
+    color: aqua;
 }
 
 
