@@ -37,8 +37,9 @@
     <div class="features">
         <div class="features__item">
             <img class="features__icon" src="429337541.jpg" alt="">
-            <h1>
+            <h1><div class="text">
                 <p> Atlantis The Royal is set to join the ranks of the world’s most luxurious hotels in Dubai. </p></h1>
+        </div>
             <h4 class="features__title"></h4>
             <div class="features__text">
 
@@ -81,60 +82,81 @@
 
                                             <div class="social Tokyo">
                                                 <img src="Hoshinoya-Tokyo_2018_HOSHINOYA-Tokyo_Kiku-Guest-Room_PhotoCred-Hoshino-Resorts.webp">
+                                            </div>
+
+                                            <div>
+                                                <div class="team__inner"></div>
+
+                                                <div class="hotel__item"></div>
+                                                <img src="287331792.jpg">
+                                                <img src="">
+
+                                                <div class="Hotel_name-1"></div>
+                                                <div class="hotel__inf"> Is in Maldives(South Asia) Soneva, formerly
+                                                    Soneva Resorts and Residences, is a resort chain founded in
+                                                    Maldives in 1995 by Sonu Shivdasani and his wife Eva Malmström
+                                                    Shivdasani. 🡅
+                                                </div>
 
 
-                                                <div>
-                                                    <div class="team__inner"></div>
-
-                                                    <div class="hotel__item"></div>
-                                                    <img src="287331792.jpg">
-                                                    <img src="">
-
-                                                    <div class="Hotel_name-1"></div>
-                                                    <div class="hotel__inf"> Is in Maldives(South Asia) Soneva, formerly
-                                                        Soneva Resorts and Residences, is a resort chain founded in
-                                                        Maldives in 1995 by Sonu Shivdasani and his wife Eva Malmström
-                                                        Shivdasani. 🡅
-                                                    </div>
+                                                <div class="Hotel__item"></div>
+                                                <img src="">
 
 
-                                                    <div class="Hotel__item"></div>
-                                                    <img src="">
-
-
-                                                    <div class="Hotel__prof"><img
-                                                            src="400535324.jpg">
-                                                        <h1>  <div class="Moltrasio">   Is in Moltrasio(Italy) In the early 1800s, Count Andrea
+                                                <div class="Hotel__prof"><img
+                                                        src="400535324.jpg">
+                                                    <h1>
+                                                        <div class="Moltrasio"> Is in Moltrasio(Italy) In the early
+                                                            1800s, Count Andrea
                                                             Lucini
                                                             Passalacqua built a sprawling villa complete designer
-                                                            Giocando Albertolli 🡅 </h1> </div>
+                                                            Giocando Albertolli 🡅
+                                                    </h1>
+                                                </div>
 
-                                                    </div>
+                                            </div>
 
-                                                    <div class="hotel__item"></div>
-                                                    <img class="hotel__photo">
+                                            <div class="hotel__item"></div>
+                                            <img class="hotel__photo">
 
-                                                    <div class="reviews reviews__hotel">
-                                                        <div class="container">
+                                            <div class="reviews reviews__hotel">
+                                                <div class="container">
 
-                                                            <div class="reviews__item">
-                                                                <div class="reviews__photo"></div>
-                                                                <img class="reviews__img">
+                                                    <div class="reviews__item">
+                                                        <div class="reviews__photo"></div>
+                                                        <img class="reviews__img">
 
-                                                                <div class="reviews__content"></div>
-                                                                <div class="reviews__text"> It's all about our hotels
-                                                                    and these are the best hotels in the world! Where can you relax!
-                                                                </div>
-
-                                                            </div>
+                                                        <div class="reviews__content"></div>
+                                                        <div class="reviews__text"> It's all about our hotels
+                                                            and these are the best hotels in the world! Where can you
+                                                            relax! And below you are presented with the inconveniences of hotels
                                                         </div>
+
                                                     </div>
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="Inconveniences-1">
+                                            <ul>Inconveniences:</ul>
+                                        </div>
+
+                                            <div class="Inconveniences-3">
+                                                <ul>Dirty</ul>
+                                            </div>
+                                                <div class="Inconveniences-4" >
+                                            <ul>Noise</ul>
+                                                </div>
+                                                <div class="Inconveniences-5" >
+                                            <ul> Neighbors </ul>
+                                                </div>
+                                        <div class="Inconveniences-6" >
+                                            <ul> Unsanitary </ul>
+                                        </div>
+                                        </div>
 
 
 </body>
 </html>
-
 
 CSS!!!
 
@@ -190,7 +212,7 @@ CSS!!!
 
 body {
     margin: 0;
-    background-color: #676161;
+    background-color: black;
 }
 
 .nav__link:first-child {
@@ -360,12 +382,13 @@ h1, h2, h3, h4, h5 {
     width: 40px;
     height: 40px;
     margin-right: 4px;
+    padding: 200px;
 
     border: 1px solid #e8ecee;
 }
 
 .reviews {
-    background-color: #53354a;
+    background-color: darkslategray;
 
 }
 
@@ -402,10 +425,54 @@ h1, h2, h3, h4, h5 {
 }
 
 .hotel__inf {
+    text-align: right;
     color: aqua;
     padding: 50px;
 }
 
 .Moltrasio{
+    text-align: right;
     padding: 100px;
+    color: lightgreen;
+}
+
+.Inconveniences-1 {
+    text-transform: uppercase;
+    padding: 30px;
+    color: aqua;
+    background-color: red;
+}
+
+
+.Inconveniences-3{
+    padding: 25px;
+    text-transform: uppercase;
+    color: black;
+    background-color: darkorange;
+
+}
+
+.Inconveniences-4{
+    padding: 25px;
+    text-transform: uppercase;
+    color: violet;
+    background-color: dimgrey;
+}
+
+.Inconveniences-5{
+    padding: 25px;
+    text-transform: uppercase;
+    color: orange;
+    background-color: crimson;
+}
+
+.Inconveniences-6{
+    padding: 25px;
+    text-transform: uppercase;
+    color: lightgreen;
+    background-color: darkslategray;
+}
+
+.text {
+    color: blueviolet;
 }
