@@ -1,0 +1,315 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+    border-bottom: 1px solid #515369;
+}
+
+.nav {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav__link-hotel {
+    margin-left: 50px;
+
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.75;
+
+    transition: opacity .1s linear;
+
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+.intro-hotel {
+    flex-direction: column;
+    padding-top: 100px;
+    height: 1000px;
+
+    background: #31344e;
+    background:  center no-repeat;
+
+}
+
+.intro__title {
+
+    margin: 0 0 30px;
+
+    font-size: 65px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: lowercase;
+    text-align: center;
+    line-height: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+
+    border-radius: 3px;
+    font-weight: 600;
+
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.btn--red {
+    background-color: red;
+}
+
+
+.features {
+    display: flex;
+    margin: 95px 0;
+    flex-wrap: wrap;
+}
+
+
+.features__item {
+    width: 33.33333%;
+    padding: 0 120px;
+    margin: 25px 0;
+
+    text-align: center;
+}
+
+.features__icon {
+    margin-bottom: 25px;
+    height: 600px;
+    transform: translate3d(-35%, -10%, 0);
+
+}
+
+.features__title {
+    font-size: 20px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.features__text {
+    color: white;
+    font-size: 20px;
+    line-height: 5px;
+    text-transform: uppercase;
+
+}
+
+.Hotel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Hotel__item {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+}
+
+.hotel__item:hover .driver__content {
+    opacity: 1;
+}
+
+.hotel-photo {
+    top: 0;
+    left: 50%;
+    transform: translate3d(-30%, -20%, 0);
+}
+
+.Hotel__title {
+    margin-bottom: 5px;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hotel__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.hotel__item {
+    width: 25%;
+    padding: 0 15px;
+}
+
+
+.Hotel__name-1 {
+    margin-bottom: 20px;
+
+    font-size: 100px;
+    color: black;
+}
+
+.Hotel__prof {
+    padding: 100px;
+    margin-bottom: 100px;
+    font-size: 13px;
+    color: orange;
+    text-transform: uppercase;
+
+}
+
+.Hotel__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+    margin-bottom: 20px;
+
+}
+
+.social-Tokyo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+    padding: 200px;
+
+    border: 1px solid #e8ecee;
+}
+
+.reviews {
+    background-color: darkslategray;
+
+}
+
+.reviews__hotel {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+.reviews__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80%;
+}
+
+.reviews__text {
+    font-size: 36px;
+    line-height: 1.2;
+    color: aqua;
+}
+
+
+.reviews__img {
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.social-Tokyo {
+    height: 100px;
+    padding: 200px;
+    width: 100px;
+}
+
+.hotel__inf {
+    text-align: right;
+    color: aqua;
+    padding: 50px;
+}
+
+.Moltrasio{
+    text-align: right;
+    padding: 100px;
+    color: lightgreen;
+}
+
+.Inconveniences-1 {
+    text-transform: uppercase;
+    padding: 30px;
+    color: aqua;
+    background-color: red;
+}
+
+
+.Inconveniences-3{
+    padding: 25px;
+    text-transform: uppercase;
+    color: black;
+    background-color: darkorange;
+
+}
+
+.Inconveniences-4{
+    padding: 25px;
+    text-transform: uppercase;
+    color: violet;
+    background-color: dimgrey;
+}
+
+.Inconveniences-5{
+    padding: 25px;
+    text-transform: uppercase;
+    color: orange;
+    background-color: crimson;
+}
+
+.Inconveniences-6{
+    padding: 25px;
+    text-transform: uppercase;
+    color: lightgreen;
+    background-color: darkslategray;
+}
+
+.text {
+    color: blueviolet;
+}
